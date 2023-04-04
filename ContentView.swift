@@ -9,16 +9,16 @@ struct ContentView: View {
             TextField("", value: $int, format: .number)
             TextField("", value: $num, format: .number)
             Button("Multiply") {
-                <#code#>
+                var Answer = int * num
             }
             Button("Add") {
-                <#code#>
+                var Answer = int + num
             }
             Button("Subtract") {
-                <#code#>
+                var Answer = int - num
             }
             Button("Devide") {
-                <#code#>
+                var Answer = int / num
             }
             Text("\(Answer)")
 
