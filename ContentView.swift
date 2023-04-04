@@ -11,6 +11,15 @@ struct ContentView: View {
             Button("Multiply") {
                 <#code#>
             }
+            Button("Add") {
+                <#code#>
+            }
+            Button("Subtract") {
+                <#code#>
+            }
+            Button("Devide") {
+                <#code#>
+            }
             Text("\(Answer)")
 
         }
