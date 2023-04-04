@@ -1,12 +1,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var Answer = int * num
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button("Multiply") {
+                <#code#>
+            }
+            Text("\(Answer)")
+
         }
     }
 }
